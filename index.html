@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Игровой сайт</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #1c1c1c;
+            color: #f8d77a;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        h1, h2 {
+            font-family: 'Verdana', sans-serif;
+            color: #f8d77a;
+            text-align: center;
+        }
+
+        nav {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            color: #f8d77a;
+            text-decoration: none;
+            font-size: 18px;
+        }
+
+        nav ul li a:hover {
+            text-decoration: underline;
+        }
+
+        .game-section {
+            margin: 50px auto;
+            width: 80%;
+            background-color: #333;
+            padding: 20px;
+            border-radius: 10px;
+            text-align: center;
+        }
+
+        .game-image {
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px;
+            margin-top: 20px;
+        }
+
+        .game-button {
+            background-color: #444;
+            color: #f8d77a;
+            padding: 10px 20px;
+            border: 2px solid #f8d77a;
+            border-radius: 5px;
+            cursor: pointer;
+            text-decoration: none;
+        }
+
+        .game-button:hover {
+            background-color: #555;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #333;
+            color: #f8d77a;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Добро пожаловать на игровой сайт!</h1>
+        <nav>
+            <ul>
+                <li><a href="#cs2" class="nav-button">CS2</a></li>
+                <li><a href="#minecraft" class="nav-button">Minecraft</a></li>
+                <li><a href="#valorant" class="nav-button">Valorant</a></li>
+                <li><a href="#roblox" class="nav-button">Roblox</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="cs2" class="game-section">
+            <h2>Counter-Strike 2</h2>
+            <div class="image-container">
+                <img src="pictures/CS2.png" alt="Counter-Strike 2" class="game-image">
+            </div>
+            <p>Counter-Strike 2 — это культовая многопользовательская игра в жанре шутера от первого лица.</p>
+            <a href="https://www.counter-strike.net/cs2" target="_blank" class="game-button">Узнать больше</a>
+        </section>
+
+        <section id="minecraft" class="game-section">
+            <h2>Minecraft</h2>
+            <div class="image-container">
+                <img src="pictures/MINECRAFT.png" alt="Minecraft" class="game-image">
+            </div>
+            <p>Minecraft — это песочница, где вы можете строить, исследовать и выживать в бесконечном мире.</p>
+            <a href="https://www.minecraft.net" target="_blank" class="game-button">Узнать больше</a>
+        </section>
+
+        <section id="valorant" class="game-section">
+            <h2>Valorant</h2>
+            <div class="image-container">
+                <img src="pictures/VALORANT.png" alt="Valorant" class="game-image">
+            </div>
+            <p>Valorant — это тактический шутер от первого лица с уникальными персонажами и способностями.</p>
+            <a href="https://playvalorant.com" target="_blank" class="game-button">Узнать больше</a>
+        </section>
+
+        <section id="roblox" class="game-section">
+            <h2>Roblox</h2>
+            <div class="image-container">
+                <img src="pictures/ROBLOX.png" alt="Roblox" class="game-image">
+            </div>
+            <p>Roblox — это платформа для создания и игры в миллионы пользовательских игр.</p>
+            <a href="https://www.roblox.com" target="_blank" class="game-button">Узнать больше</a>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Игровой сайт. Все права защищены.</p>
+    </footer>
+</body>
+</html>
